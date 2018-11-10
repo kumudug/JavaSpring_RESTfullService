@@ -16,7 +16,6 @@ If needed instead you can use the above url and create a new project
 Then open it with IntelliJ
 
 ## Build an executable JAR
----
 
 * You can run the application from the command line with Gradle or Maven. 
 * Or you can build a single executable JAR file that contains all the necessary dependencies, classes, and resources, and run that. 
@@ -32,3 +31,9 @@ Then open it with IntelliJ
     `./gradlew build`
  2. Run
     `java -jar build/libs/gs-rest-service-0.1.0.jar`
+
+## Test the service
+
+* Now that the service is up, visit 
+ 1. _http://localhost:8888/greeting_
+ 2. _http://localhost:8888/greeting?name=Tin_
