@@ -1,5 +1,6 @@
 package hello;
 
+//This is the POJO class ( Plain old java object )
 public class Greeting {
     private final long id;
     private final String content;
